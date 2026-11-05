@@ -48,11 +48,11 @@ ROS bag and plotted in MATLAB with [`torque_plot/plotting.m`](hw2_trajectory_con
 
 Circular path with a cubic polynomial:
 
-<!-- video: hw2_circular_cubic.mp4 -->
+https://github.com/user-attachments/assets/a09245a6-d650-44d8-a728-47de82c33602
 
 Linear path with a trapezoidal velocity profile:
 
-<!-- video: hw2_linear_trapezoidal.mp4 -->
+https://github.com/user-attachments/assets/d6c66024-f8fd-4967-b0ef-3693d6133b52
 
 ```bash
 roslaunch iiwa_gazebo iiwa_gazebo_effort.launch
@@ -79,15 +79,16 @@ In the videos: the camera image with the detected marker on the left, Gazebo on 
 
 Fixed relative pose, moving the marker:
 
-<!-- video: hw3_point_2A.mp4 -->
+https://github.com/user-attachments/assets/72037956-3223-4b30-af3d-b75504446149
 
 Look at the marker, moving the marker:
 
-<!-- video: hw3_point_2B.mp4 -->
+https://github.com/user-attachments/assets/058d39bb-f47d-4f7d-a2b8-f1df806cc6b3
 
 Circular trajectory while looking at the marker:
 
-<!-- video: hw3_point_2C.mp4 -->
+https://github.com/user-attachments/assets/bd080ae5-78e8-44e4-82d2-78c5cf616560
+
 
 ```bash
 export URDF=$(rospack find iiwa_description)/urdf/iiwa14.urdf
@@ -124,7 +125,7 @@ a new goal relative to it. The effect of the planner parameters (clearance, foot
 In the video: Gazebo on the left; on the right the onboard camera, which detects marker 115 towards the end, and the map
 in RViz.
 
-<!-- video: hw4_navigation.mp4 -->
+https://github.com/user-attachments/assets/fef85be5-d340-49c6-901f-8754a3c4e1b4
 
 ```bash
 roslaunch fra2mo_2dnav fra2mo_nav_bringup.launch    # Gazebo, gmapping and move_base
