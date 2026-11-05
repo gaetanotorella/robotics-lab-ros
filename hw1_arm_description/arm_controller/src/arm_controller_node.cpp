@@ -39,8 +39,8 @@ int main(int argc, char **argv) {
 
         joint1CommandPub.publish(joint1Command);
         joint2CommandPub.publish(joint2Command);
-        joint3CommandPub.publish(joint2Command);
-        joint4CommandPub.publish(joint2Command);
+        joint3CommandPub.publish(joint3Command);
+        joint4CommandPub.publish(joint4Command);
 
         ros::spinOnce(); 
         loop_rate.sleep();

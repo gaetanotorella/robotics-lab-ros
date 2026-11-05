@@ -10,7 +10,6 @@ add_compile_options(-std=c++11)
 find_package(orocos_kdl REQUIRED)
 find_package(Eigen3 REQUIRED)
 find_package(catkin REQUIRED COMPONENTS roscpp rospy std_msgs genmsg eigen_conversions kdl_parser orocos_kdl urdf)
-LINK_DIRECTORIES("lib/")
 
 
 ## System dependencies are found with CMake's conventions
